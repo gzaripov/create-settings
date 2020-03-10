@@ -28,6 +28,8 @@
   ],
   "author": "gzaripov",
   "license": "MIT",
+  "repository": "https://github.com/gzaripov/create-settings",
+  "bugs": "https://github.com/gzaripov/create-settings/issues",
   "devDependencies": {
     "@rollup/plugin-typescript": "^2.0.1",
     "@types/jest": "^25.1.4",
