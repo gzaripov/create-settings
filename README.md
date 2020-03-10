@@ -3,7 +3,7 @@
 Middleware tool for extending basic axios functionality
 
 [![npm version](https://badge.fury.io/js/create-settings.svg)](https://badge.fury.io/js/create-settings)
-[![CircleCI](https://circleci.com/gh/gzaripov/creaate-settings.svg?style=svg)](https://circleci.com/gh/gzaripov/create-settings)
+[![CircleCI](https://circleci.com/gh/gzaripov/create-settings.svg?style=svg)
 [![codecov](https://codecov.io/gh/gzaripov/create-settings/branch/master/graph/badge.svg)](https://codecov.io/gh/gzaripov/create-settings)
 
 ## Installation
