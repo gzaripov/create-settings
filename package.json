@@ -1,6 +1,6 @@
 {
   "name": "create-settings",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Typesafe and lightweight tool for working with settings",
   "main": "dist/index.cjs.js",
   "browser": "dist/index.cjs.min.js",
