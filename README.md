@@ -1,6 +1,6 @@
 # Create Settings
 
-Middleware tool for extending basic axios functionality
+Typesafe and lightweight tool for working with settings
 
 [![npm version](https://badge.fury.io/js/create-settings.svg)](https://badge.fury.io/js/create-settings)
 [![CircleCI](https://circleci.com/gh/gzaripov/create-settings.svg?style=svg)](https://circleci.com/gh/gzaripov/create-settings.svg?style=svg)
