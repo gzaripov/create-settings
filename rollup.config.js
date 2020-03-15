@@ -7,12 +7,6 @@ export default {
   plugins: [typescript()],
   output: [
     {
-      file: pkg.browser,
-      format: 'cjs',
-      exports: 'named',
-      plugins: [terser()],
-    },
-    {
       file: pkg.main,
       format: 'cjs',
       exports: 'named',
@@ -21,6 +15,22 @@ export default {
       file: pkg.module,
       format: 'esm',
       exports: 'named',
+    },
+    {
+      file: pkg.browser[pkg.main],
+      format: 'cjs',
+      exports: 'named',
+      plugins: [terser()],
+    },
+    {
+      file: pkg.browser[pkg.module],
+      format: 'esm',
+      exports: 'named',
+      plugins: [
+        terser({
+          module: true,
+        }),
+      ],
     },
   ],
 };

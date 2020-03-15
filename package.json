@@ -2,9 +2,12 @@
   "name": "create-settings",
   "version": "1.0.1",
   "description": "Typesafe and lightweight tool for working with settings",
-  "main": "dist/index.cjs.js",
-  "browser": "dist/index.cjs.min.js",
-  "module": "dist/index.esm.js",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "browser": {
+    "./dist/index.cjs.js": "./dist/index.cjs.min.js",
+    "./dist/index.esm.js": "./dist/index.esm.min.js"
+  },
   "types": "dist/types/index.d.ts",
   "sideEffects": false,
   "scripts": {
