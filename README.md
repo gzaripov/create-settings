@@ -53,7 +53,7 @@ Options:
 
 | Name            | Type                     | Description                                           | Default |
 | --------------- | ------------------------ | ----------------------------------------------------- | ------- |
-| defaultSettings | `[setting: string]: any` | Array of AxiosLayer, this is the only required option | none    |
+| defaultSettings | `[setting: string]: any` | Object with default settings | none    |
 
 ### Settings.configure
 
