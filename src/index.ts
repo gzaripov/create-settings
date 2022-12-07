@@ -63,6 +63,7 @@ export default function createSettings<S extends SettingsObject>(defaultSettings
 type Settable<T> = {
   get(): T;
   set(value: T): void;
+  restore(): void
 };
 
 export const settable = <T>(defaultValue: T): Settable<T> => {
